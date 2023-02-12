@@ -7,7 +7,7 @@
                 <div class="col-lg-8 text-center text-lg-start">
                     <h1 class="display-1 text-uppercase text-dark mb-lg-4">Pet Shop</h1>
                     <h1 class="text-uppercase text-white mb-lg-4">Make Your Pets Happy</h1>
-                    <p class="fs-4 text-white mb-lg-4">Dolore tempor clita lorem rebum kasd eirmod dolore diam eos kasd. Kasd clita ea justo est sed kasd erat clita sea</p>
+                    <p class="fs-4 text-white mb-lg-4">In this pet shop, customers can purchase food, toys, accessories, and other pet-related items. Our pet shops also offer grooming services, pet adoption services, and veterinary care for their customers' pets.</p>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
                         <a href="" class="btn btn-outline-light border-2 py-md-3 px-md-5 me-5">Read More</a>
                         <!-- <button type="button" class="btn-play" data-bs-toggle="modal"
@@ -58,7 +58,7 @@
                         <h6 class="text-primary text-uppercase">About Us</h6>
                         <h1 class="display-5 text-uppercase mb-0">We Keep Your Pets Happy All Time</h1>
                     </div>
-                    <h4 class="text-body mb-4">Diam dolor diam ipsum tempor sit. Clita erat ipsum et lorem stet no labore lorem sit clita duo justo magna dolore</h4>
+                    <h4 class="text-body mb-4">Welcome to our, your one-stop shop for all your pet needs! We are a family-owned and operated business dedicated to providing the highest quality products, services, and advice to pet owners and animal lovers alike. We are passionate about offering only the best products and services to keep your furry, feathery, or scaly friends happy, healthy, and well-cared for.</h4>
                     <div class="bg-light p-4">
                         <ul class="nav nav-pills justify-content-between mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item w-50" role="presentation">
@@ -74,10 +74,10 @@
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
-                                <p class="mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                                <p class="mb-0">We carry a wide range of pet supplies, including food, toys, accessories, and grooming supplies, as well as a selection of the most popular pets, including dogs, cats, birds, fish, reptiles, and small mammals. Our knowledgeable staff is always on hand to answer any questions you may have and provide expert advice on pet care, nutrition, and behavior.</p>
                             </div>
                             <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
-                                <p class="mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                                <p class="mb-0">We are committed to providing a safe, clean, and welcoming environment for all our customers and their pets.</p>
                             </div>
                         </div>
                     </div>
@@ -174,7 +174,7 @@
                     <div class="product-item position-relative bg-light d-flex flex-column text-center">
                         <img class="img-fluid mb-4" src="img/product-1.png" alt="">
                         <h6 class="text-uppercase">Quality Pet Foods</h6>
-                        <h5 class="text-primary mb-0">$199.00</h5>
+                        <h5 class="text-primary mb-0"> RS 1990</h5>
                         <div class="btn-action d-flex justify-content-center">
                             <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
                             <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
@@ -185,7 +185,7 @@
                     <div class="product-item position-relative bg-light d-flex flex-column text-center">
                         <img class="img-fluid mb-4" src="img/product-2.png" alt="">
                         <h6 class="text-uppercase">Quality Pet Foods</h6>
-                        <h5 class="text-primary mb-0">$199.00</h5>
+                        <h5 class="text-primary mb-0">RS 1900</h5>
                         <div class="btn-action d-flex justify-content-center">
                             <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
                             <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
@@ -196,7 +196,7 @@
                     <div class="product-item position-relative bg-light d-flex flex-column text-center">
                         <img class="img-fluid mb-4" src="img/product-3.png" alt="">
                         <h6 class="text-uppercase">Quality Pet Foods</h6>
-                        <h5 class="text-primary mb-0">$199.00</h5>
+                        <h5 class="text-primary mb-0">RS 1990</h5>
                         <div class="btn-action d-flex justify-content-center">
                             <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
                             <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
@@ -207,7 +207,7 @@
                     <div class="product-item position-relative bg-light d-flex flex-column text-center">
                         <img class="img-fluid mb-4" src="img/product-4.png" alt="">
                         <h6 class="text-uppercase">Quality Pet Foods</h6>
-                        <h5 class="text-primary mb-0">$199.00</h5>
+                        <h5 class="text-primary mb-0">RS 1990</h5>
                         <div class="btn-action d-flex justify-content-center">
                             <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
                             <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
@@ -218,7 +218,7 @@
                     <div class="product-item position-relative bg-light d-flex flex-column text-center">
                         <img class="img-fluid mb-4" src="img/product-2.png" alt="">
                         <h6 class="text-uppercase">Quality Pet Foods</h6>
-                        <h5 class="text-primary mb-0">$199.00</h5>
+                        <h5 class="text-primary mb-0">RS 1990</h5>
                         <div class="btn-action d-flex justify-content-center">
                             <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
                             <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
@@ -240,7 +240,7 @@
                         <h6 class="text-dark text-uppercase">Special Offer</h6>
                         <h1 class="display-5 text-uppercase text-white mb-0">Save 50% on all items your first order</h1>
                     </div>
-                    <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo lorem. Elitr ut dolores magna sit. Sea dolore sed et.</p>
+                    <p class="text-white mb-4">"Get ready for the purrfect season with our special offer! From now until the end of the month, receive 50% off your entire purchase when you adopt a new feline friend from our pet shop. That's right, not only will you be adding a furry companion to your family, but you'll also save on all the supplies you need to keep them happy and healthy. Don't wait—visit us today and give a deserving cat a forever home!"</p>
                     <a href="" class="btn btn-light py-md-3 px-md-5 me-3">Shop Now</a>
                     <a href="" class="btn btn-outline-light py-md-3 px-md-5">Read More</a>
                 </div>
@@ -265,26 +265,26 @@
                         <div class="text-center bg-primary p-4 mb-2">
                             <h1 class="display-4 text-white mb-0">
                                 <small class="align-top"
-                                    style="font-size: 22px; line-height: 45px;">$</small>49<small
+                                    style="font-size: 22px; line-height: 45px;">Rs</small>49<small
                                     class="align-bottom" style="font-size: 16px; line-height: 40px;">/
                                     Mo</small>
                             </h1>
                         </div>
                         <div class="text-center p-4">
                             <div class="d-flex align-items-center justify-content-between mb-1">
-                                <span>HTML5 & CSS3</span>
+                                <span>Training</span>
                                 <i class="bi bi-check2 fs-4 text-primary"></i>
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-1">
-                                <span>Bootstrap v5</span>
+                                <span>Vaccination</span>
                                 <i class="bi bi-check2 fs-4 text-primary"></i>
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-1">
-                                <span>Responsive Layout</span>
+                                <span>Pet Grooming</span>
                                 <i class="bi bi-x fs-4 text-danger"></i>
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-1">
-                                <span>Browsers Compatibility</span>
+                                <span>Pet Food and Supply Delivery</span>
                                 <i class="bi bi-x fs-4 text-danger"></i>
                             </div>
                             <a href="" class="btn btn-primary text-uppercase py-2 px-4 my-3">Order Now</a>
@@ -304,20 +304,20 @@
                             </h1>
                         </div>
                         <div class="text-center p-4">
-                            <div class="d-flex align-items-center justify-content-between mb-1">
-                                <span>HTML5 & CSS3</span>
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                                <span>Training</span>
                                 <i class="bi bi-check2 fs-4 text-primary"></i>
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-1">
-                                <span>Bootstrap v5</span>
+                                <span>Vaccination</span>
                                 <i class="bi bi-check2 fs-4 text-primary"></i>
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-1">
-                                <span>Responsive Layout</span>
-                                <i class="bi bi-check2 fs-4 text-primary"></i>
+                                <span>Pet Grooming</span>
+                                <i class="bi bi-x fs-4 text-danger"></i>
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-1">
-                                <span>Browsers Compatibility</span>
+                                <span>Pet Food and Supply Delivery</span>
                                 <i class="bi bi-x fs-4 text-danger"></i>
                             </div>
                             <a href="" class="btn btn-primary text-uppercase py-2 px-4 my-3">Order Now</a>
@@ -337,21 +337,21 @@
                             </h1>
                         </div>
                         <div class="text-center p-4">
-                            <div class="d-flex align-items-center justify-content-between mb-1">
-                                <span>HTML5 & CSS3</span>
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                                <span>Training</span>
                                 <i class="bi bi-check2 fs-4 text-primary"></i>
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-1">
-                                <span>Bootstrap v5</span>
+                                <span>Vaccination</span>
                                 <i class="bi bi-check2 fs-4 text-primary"></i>
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-1">
-                                <span>Responsive Layout</span>
-                                <i class="bi bi-check2 fs-4 text-primary"></i>
+                                <span>Pet Grooming</span>
+                                <i class="bi bi-x fs-4 text-danger"></i>
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-1">
-                                <span>Browsers Compatibility</span>
-                                <i class="bi bi-check2 fs-4 text-primary"></i>
+                                <span>Pet Food and Supply Delivery</span>
+                                <i class="bi bi-x fs-4 text-danger"></i>
                             </div>
                             <a href="" class="btn btn-primary text-uppercase py-2 px-4 my-3">Order Now</a>
                         </div>
@@ -494,58 +494,4 @@
     </div>
     <!-- Testimonial End -->
 
-
-    <!-- Blog Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
-                <h6 class="text-primary text-uppercase">Latest Blog</h6>
-                <h1 class="display-5 text-uppercase mb-0">Latest Articles From Our Blog Post</h1>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-6">
-                    <div class="blog-item">
-                        <div class="row g-0 bg-light overflow-hidden">
-                            <div class="col-12 col-sm-5 h-100">
-                                <img class="img-fluid h-100" src="img/blog-1.jpg" style="object-fit: cover;">
-                            </div>
-                            <div class="col-12 col-sm-7 h-100 d-flex flex-column justify-content-center">
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
-                                        <small><i class="bi bi-calendar-date me-2"></i>01 Jan, 2045</small>
-                                    </div>
-                                    <h5 class="text-uppercase mb-3">Dolor sit magna rebum clita rebum dolor</h5>
-                                    <p>Ipsum sed lorem amet dolor amet duo ipsum amet et dolore est stet tempor eos dolor</p>
-                                    <a class="text-primary text-uppercase" href="">Read More<i class="bi bi-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="blog-item">
-                        <div class="row g-0 bg-light overflow-hidden">
-                            <div class="col-12 col-sm-5 h-100">
-                                <img class="img-fluid h-100" src="img/blog-2.jpg" style="object-fit: cover;">
-                            </div>
-                            <div class="col-12 col-sm-7 h-100 d-flex flex-column justify-content-center">
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
-                                        <small><i class="bi bi-calendar-date me-2"></i>01 Jan, 2045</small>
-                                    </div>
-                                    <h5 class="text-uppercase mb-3">Dolor sit magna rebum clita rebum dolor</h5>
-                                    <p>Ipsum sed lorem amet dolor amet duo ipsum amet et dolore est stet tempor eos dolor</p>
-                                    <a class="text-primary text-uppercase" href="">Read More<i class="bi bi-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog End -->
-   
-    @endsection
+@endsection
