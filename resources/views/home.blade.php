@@ -9,40 +9,13 @@
                     <h1 class="text-uppercase text-white mb-lg-4">Make Your Pets Happy</h1>
                     <p class="fs-4 text-white mb-lg-4">In this pet shop, customers can purchase food, toys, accessories, and other pet-related items. Our pet shops also offer grooming services, pet adoption services, and veterinary care for their customers' pets.</p>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="" class="btn btn-outline-light border-2 py-md-3 px-md-5 me-5">Read More</a>
-                        <!-- <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-                            <span></span>
-                        </button>
-                        <h5 class="font-weight-normal text-white m-0 ms-4 d-none d-sm-block">Play Video</h5> -->
+                        <a href="{{route('about')}}" class="btn btn-outline-light border-2 py-md-3 px-md-5 me-5">Read More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Hero End -->
-
-
-    <!-- Video Modal Start -->
-    <!-- <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    16:9 aspect ratio
-                    <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                            allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Video Modal End -->
-
 
     <!-- About Start -->
     <div class="container-fluid py-5">
@@ -251,7 +224,7 @@
 
 
     <!-- Pricing Plan Start -->
-    <div class="container-fluid py-5">
+    <!-- <div class="container-fluid py-5">
         <div class="container">
             <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
                 <h6 class="text-primary text-uppercase">Pricing Plan</h6>
@@ -359,7 +332,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Pricing Plan End -->
 
 
