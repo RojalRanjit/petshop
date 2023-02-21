@@ -14,8 +14,7 @@
                         <h6 class="text-primary text-uppercase">About Us</h6>
                         <h1 class="display-5 text-uppercase mb-0">We Keep Your Pets Happy All Time</h1>
                     </div>
-                    <h4 class="text-body mb-4">Welcome to our, your one-stop shop for all your pet needs! We are a family-owned and operated business dedicated to providing the highest quality products, services, and advice to pet owners and animal lovers alike.
-                                             We are passionate about offering only the best products and services to keep your furry, feathery, or scaly friends happy, healthy, and well-cared for.
+                    <h4 class="text-body mb-4">Diam dolor diam ipsum tempor sit. Clita erat ipsum et lorem stet no labore lorem sit clita duo justo magna dolore</h4>
                     <div class="bg-light p-4">
                         <ul class="nav nav-pills justify-content-between mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item w-50" role="presentation">
@@ -31,10 +30,10 @@
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
-                                <p class="mb-0">We carry a wide range of pet supplies, including food, toys, accessories, and grooming supplies, as well as a selection of the most popular pets, including dogs, cats, birds, fish, reptiles, and small mammals. Our knowledgeable staff is always on hand to answer any questions you may have and provide expert advice on pet care, nutrition, and behavior.</p>
+                                <p class="mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
                             </div>
                             <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
-                                <p class="mb-0">We are committed to providing a safe, clean, and welcoming environment for all our customers and their pets.</p>
+                                <p class="mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
                             </div>
                         </div>
                     </div>
@@ -54,7 +53,7 @@
                         <h6 class="text-dark text-uppercase">Special Offer</h6>
                         <h1 class="display-5 text-uppercase text-white mb-0">Save 50% on all items your first order</h1>
                     </div>
-                    <p class="text-white mb-4">"Get ready for the purrfect season with our special offer! From now until the end of the month, receive 50% off your entire purchase when you adopt a new feline friend from our pet shop. That's right, not only will you be adding a furry companion to your family, but you'll also save on all the supplies you need to keep them happy and healthy. Don't wait—visit us today and give a deserving cat a forever home!"</p>
+                    <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo lorem. Elitr ut dolores magna sit. Sea dolore sed et.</p>
                     <a href="" class="btn btn-light py-md-3 px-md-5 me-3">Shop Now</a>
                     <a href="" class="btn btn-outline-light py-md-3 px-md-5">Read More</a>
                 </div>
