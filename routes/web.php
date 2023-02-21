@@ -31,6 +31,10 @@ Route::get('/login', [HomeController::class, 'login'])->name('login');
 
 Route::get('/register', [HomeController::class, 'register'])->name('register');
 
+Route::get('/adminDashboard', [HomeController::class, 'Dashboard'])->name('adminDashboard');
+Route::get('/adminAddPetitems', [HomeController::class, 'AddPetitems'])->name('adminAddPetitems');
+Route::post('/addItems', [HomeController::class, 'addItems'])->name('addItems');
+Route::get('/Listofitems', [HomeController::class, 'Listofitems'])->name('Listofitems');
 
 
 
