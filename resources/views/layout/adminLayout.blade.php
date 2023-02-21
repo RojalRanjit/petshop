@@ -12,6 +12,8 @@
     <link href="{{asset('css/now-ui-dashboard.css?v=1.5.0')}}" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="{{asset('demo/demo.css')}}" rel="stylesheet" />
+    @vite(['resources/js/app.js'])
+
 
 </head>
 <body class="">
@@ -24,21 +26,21 @@
       <div class="sidebar-wrapper" id="sidebar-wrapper">
         <ul class="nav">
           <li class="active ">
-            <a href="./dashboard.html">
+            <a href="{{route('adminDashboard')}}">
               <i class="now-ui-icons design_app"></i>
               <p>Dashboard</p>
             </a>
           </li>
           <li>
-            <a href="./icons.html">
+            <a href="{{route  ('adminAddPetitems')}}">
               <i class="now-ui-icons education_atom"></i>
-              <p>Icons</p>
+              <p>Add pet items</p>
             </a>
           </li>
           <li>
-            <a href="./map.html">
+            <a href="{{route('Listofitems')}}">
               <i class="now-ui-icons location_map-big"></i>
-              <p>Maps</p>
+              <p>List of Pet items</p>
             </a>
           </li>
           <li>
@@ -127,6 +129,7 @@
           </div>
         </div>
       </nav>
+</div>
       @yield('content')
 
      <!--   Core JS Files   -->
