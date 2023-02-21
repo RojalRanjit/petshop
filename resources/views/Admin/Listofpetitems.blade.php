@@ -9,16 +9,19 @@
       <th scope="col">Price</th>
       <th scope="col">Type</th>
       <th scope="col">Image</th>
+      <th>Action</th>
     </tr>
   </thead>
   <tbody>
-      @foreach($data as $item)
+      @foreach($data as $key => $item)
     <tr>
-        <td>{{$item->id}}</td>
-        <td>{{$item->food}}</td>
+        <td>{{$key++}}</td>
+        <td>{{$item->item}}</td>
         <td>{{$item->Price}}</td>
-        <td>{{$item->Toys}}</td>
+        <td>{{$item->type}}</td>
         <td><img style="height:40px;width:40px" src="{{asset( $item->foodimg ) }}" alt="error"></td>
+        <td><a href="{{url('delete/' . $item->id)}}" class="btn btn-danger">Delete</a>
+        <a href="{{url('edit/'. $item->id)}}" class="btn btn-primary">Edit</a></td>
     </tr>
     @endforeach
     

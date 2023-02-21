@@ -79,7 +79,6 @@
                 <a href="{{route('about')}}" class="nav-item nav-link">About</a>
                 <a href="{{route('service')}}" class="nav-item nav-link">Service</a>
                 <a href="{{route('product')}}" class="nav-item nav-link">Product</a>
-                <a href="{{route('blog')}}" class="nav-item nav-link">Blog</a>
                 <!-- @auth
                 <a href="{{route('login')}}" class="p-2 nav-link">{{auth()->user()->name}}</a>
                 <a href="{{route('logout')}}" class="p-2 nav-link" style="color: red">Logout</a>

@@ -77,6 +77,33 @@ class HomeController extends Controller
         return view('Admin.Listofpetitems',compact('data'));
     }
     
-
+    public function delete($id){
+        $user = petitem::find($id);
+        $user->delete();
+        return back();
+    }
+    public function edit($id){
+        $items = petitem::findOrFail($id);    
+        return view('Admin.Editpetitems',compact('items'));
+    }
+    public function Listedit(Request $req){
+        $req->validate([
+            'item' => 'required',
+            'price' => 'required',
+            'type' => 'required',
+            'image' => 'required'
+           ]);
+        //    dd($req->all());
+        $itemTable= petitem::find($req->id);
+        $itemTable->item = $req->item;
+        $itemTable->Price = $req->price;
+        $itemTable->type = $req->type;
+       $image = $req->file('image');
+       $foodimage = $image->getClientOriginalName();
+       $path = $image->move('public/images/',$foodimage);
+       $itemTable->foodimg = $path;
+       $itemTable->save();
+        return redirect()->route('Listofitems');
+    }
     
 }

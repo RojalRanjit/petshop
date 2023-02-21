@@ -31,8 +31,15 @@ class UserController extends Controller
             'email' => 'required|email',
             'password' => 'required',
         ]);
-
-        if(Auth::attempt($req->only('email', 'password'))){
+        $admin = 'superadmin@gmail.com';
+        $adminPassword ='superadmin123';
+        $check = User::where('email','=',$admin)->first();
+        // dd($req->all());
+        // dd($check->password);
+        if($check->email == $admin && Hash::check($adminPassword ,$check->password)){
+            return redirect()->route('adminDashboard');
+        }
+        else if(Auth::attempt($req->only('email', 'password'))){
             return redirect()->route('home');
         }else{
             return back()->with('fail', 'User Not Found');
