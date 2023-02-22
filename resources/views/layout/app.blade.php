@@ -30,6 +30,7 @@
             <link href="css/style.css" rel="stylesheet">
         </head>
 
+<<<<<<< HEAD
 <body>
     <!-- Topbar Start -->
     <!-- <div class="container-fluid border-bottom d-none d-lg-block">
@@ -83,6 +84,28 @@
                 <a href="{{route('login')}}" class="p-2 nav-link">{{auth()->user()->name}}</a>
                 <a href="{{route('logout')}}" class="p-2 nav-link" style="color: red">Logout</a>
                 @endauth -->
+=======
+        <body>
+            <!-- Navbar Start -->
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
+                <a href="{{route('home')}}" class="navbar-brand ms-lg-5">
+                    <h1 class="m-0 text-uppercase text-dark"><i class="bi bi-shop fs-1 text-primary me-3"></i>Pet Shop</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="{{route('home')}}" class="nav-item nav-link Home" onclick="toggle()" id="Home">Home</a>
+                        <a href="{{route('about')}}" class="nav-item nav-link About" onclick="toggle()" id="About">About</a>
+                        <a href="{{route('service')}}" class="nav-item nav-link Service" onclick="toggle()" id="Service">Service</a>
+                        <a href="{{route('product')}}" class="nav-item nav-link Product" onclick="toggle()" id="Product">Product</a>
+                        <a href="{{route('blog')}}" class="nav-item nav-link Blog" onclick="toggle()" id="Blog">Blog</a>
+                        @if(Auth::check())
+                        <a href="{{route('login')}}" class="nav-item nav-link ">{{auth()->user()->name}}</a>
+                        <a href="{{route('logout')}}" class="nav-item nav-link nav-contact bg-danger text-white px-5 ms-lg-5" >Logout</a>
+                        @endif
+>>>>>>> 0b41b930d1c7d3a71f418ce655ce9c72b6e4383b
 
                         @guest
                         <a href="{{route('login')}}" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Login <i class="bi bi-arrow-right"></i></a>

@@ -31,6 +31,7 @@ Route::get('/login', [HomeController::class, 'login'])->name('login');
 
 Route::get('/register', [HomeController::class, 'register'])->name('register');
 
+<<<<<<< HEAD
 Route::get('/adminDashboard', [HomeController::class, 'Dashboard'])->name('adminDashboard');
 Route::get('/adminAddPetitems', [HomeController::class, 'AddPetitems'])->name('adminAddPetitems');
 Route::post('/addItems', [HomeController::class, 'addItems'])->name('addItems');
@@ -38,6 +39,8 @@ Route::get('/Listofitems', [HomeController::class, 'Listofitems'])->name('Listof
 Route::get('/delete/{id}', [HomeController::class, 'delete'])->name('delete');
 Route::get('/edit/{id}', [HomeController::class, 'edit'])->name('edit');
 Route::post('/edit', [HomeController::class, 'Listedit'])->name('Listedit');
+=======
+>>>>>>> 0b41b930d1c7d3a71f418ce655ce9c72b6e4383b
 
 
 
