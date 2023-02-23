@@ -41,7 +41,7 @@ class HomeController extends Controller
     {
         return view('register');
     }
-<<<<<<< HEAD
+
     public function Dashboard()
     {
         return view('Admin.Dashboard');
@@ -103,7 +103,4 @@ class HomeController extends Controller
        $itemTable->save();
         return redirect()->route('Listofitems');
     }
-    
-=======
->>>>>>> 0b41b930d1c7d3a71f418ce655ce9c72b6e4383b
 }
