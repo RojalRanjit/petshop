@@ -130,9 +130,8 @@
         </div>
       </nav>
 </div>
-      @yield('content')
-
-     <!--   Core JS Files   -->
+@yield('content')
+<!--   Core JS Files   -->
   <script src="../assets/js/core/jquery.min.js"></script>
   <script src="../assets/js/core/popper.min.js"></script>
   <script src="../assets/js/core/bootstrap.min.js"></script>
