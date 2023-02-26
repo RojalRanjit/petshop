@@ -27,37 +27,31 @@
         <ul class="nav">
           <li class="active ">
             <a href="{{route('adminDashboard')}}">
-              <i class="now-ui-icons design_app"></i>
               <p>Dashboard</p>
             </a>
           </li>
           <li>
             <a href="{{route  ('adminAddPetitems')}}">
-              <i class="now-ui-icons education_atom"></i>
               <p>Add pet items</p>
             </a>
           </li>
           <li>
             <a href="{{route('Listofitems')}}">
-              <i class="now-ui-icons location_map-big"></i>
               <p>List of Pet items</p>
             </a>
           </li>
           <li>
             <a href="./notifications.html">
-              <i class="now-ui-icons ui-1_bell-53"></i>
               <p>Notifications</p>
             </a>
           </li>
           <li>
             <a href="./user.html">
-              <i class="now-ui-icons users_single-02"></i>
               <p>User Profile</p>
             </a>
           </li>
           <li>
             <a href="./tables.html">
-              <i class="now-ui-icons design_bullet-list-67"></i>
               <p>Table List</p>
             </a>
           </li>

@@ -35,6 +35,9 @@ Route::get('/adminDashboard', [HomeController::class, 'Dashboard'])->name('admin
 Route::get('/adminAddPetitems', [HomeController::class, 'AddPetitems'])->name('adminAddPetitems');
 Route::post('/addItems', [HomeController::class, 'addItems'])->name('addItems');
 Route::get('/Listofitems', [HomeController::class, 'Listofitems'])->name('Listofitems');
+Route::get('/delete/{id}', [HomeController::class, 'deleteitem'])->name('deleteitem');
+Route::get('/edit/{id}', [HomeController::class, 'edititem'])->name('edititem');
+Route::post('/edit', [HomeController::class, 'edited'])->name('edited');
 
 
 

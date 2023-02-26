@@ -54,29 +54,59 @@ class HomeController extends Controller
     }
     public function addItems(Request $req)
     {
-        
-       $req->validate([
-        'item' => 'required',
-        'price' => 'required',
-        'type' => 'required',
-        'image' => 'required'
-       ]);
-       $itemTable = new petitem();
-       $itemTable->item = $req->item;
-       $itemTable->Price = $req->price;
-       $itemTable->type = $req->type;
-       $image = $req->file('image');
-       $foodimage = $image->getClientOriginalName();
-       $path = $image->move('public/images/',$foodimage);
-       $itemTable->foodimg = $path;
-       $itemTable->save();
-       return back();
-    }
-    public function Listofitems(){
-        $data = petitem::all();
-        return view('Admin.Listofpetitems',compact('data'));
-    }
-    
 
-    
+        $req->validate([
+            'item' => 'required',
+            'price' => 'required',
+            'type' => 'required',
+            'image' => 'required'
+        ]);
+        $itemTable = new petitem();
+        $itemTable->item = $req->item;
+        $itemTable->Price = $req->price;
+        $itemTable->type = $req->type;
+        $image = $req->file('image');
+        $foodimage = $image->getClientOriginalName();
+        $path = $image->move('public/images/', $foodimage);
+        $itemTable->foodimg = $path;
+        $itemTable->save();
+        return back();
+    }
+    public function Listofitems()
+    {
+        $data = petitem::all();
+        return view('Admin.Listofpetitems', compact('data'));
+    }
+    public function deleteitem($id)
+    {
+        petitem::find($id)->delete();
+        return back();
+    }
+    public function edititem($id)
+    {
+        $edit = petitem::find($id);
+        return view('Admin.edititem', compact('edit'));
+    }
+    public function edited(Request $req)
+    {
+        $req->validate([
+            'item' => 'required',
+            'price' => 'required',
+            'type' => 'required',
+            'image' => 'required'
+        ]);
+        $itemTable = petitem::find($req->id);
+        $itemTable->item = $req->item;
+        $itemTable->Price = $req->price;
+        $itemTable->type = $req->type;
+        $image = $req->file('image');
+        $foodimage = $image->getClientOriginalName();
+        $path = $image->move('public/images/', $foodimage);
+        $itemTable->foodimg = $path;
+        $itemTable->save();
+        return redirect()->route('Listofitems');
+    }
+
+
+
 }
