@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     //
+
+
     public function home()
     {
         return view('home');
@@ -32,6 +34,11 @@ class HomeController extends Controller
         return view('blog');
     }
 
+    public function contact()
+    {
+        return view('contact');
+    }
+
     public function login()
     {
         return view('login');
@@ -41,4 +48,6 @@ class HomeController extends Controller
     {
         return view('register');
     }
+
+
 }

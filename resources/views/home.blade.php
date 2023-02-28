@@ -62,7 +62,7 @@
     
 
     <!-- Services Start -->
-    <div class="container-fluid py-5">
+    <!-- <div class="container-fluid py-5">
         <div class="container">
             <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
                 <h6 class="text-primary text-uppercase">Services</h6>
@@ -131,7 +131,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Services End -->
 
 
@@ -211,11 +211,11 @@
                 <div class="col-lg-7">
                     <div class="border-start border-5 border-dark ps-5 mb-5">
                         <h6 class="text-dark text-uppercase">Special Offer</h6>
-                        <h1 class="display-5 text-uppercase text-white mb-0">Save 50% on all items your first order</h1>
+                        <h1 class="display-5 text-uppercase text-white mb-0">Save 20% on all items for your first order</h1>
                     </div>
                     <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo lorem. Elitr ut dolores magna sit. Sea dolore sed et.</p>
-                    <a href="" class="btn btn-light py-md-3 px-md-5 me-3">Shop Now</a>
-                    <a href="" class="btn btn-outline-light py-md-3 px-md-5">Read More</a>
+                    <a href="{{route('product')}}" class="btn btn-light py-md-3 px-md-5 me-3">Shop Now</a>
+                    <a href="{{route('about')}}" class="btn btn-outline-light py-md-3 px-md-5">Read More</a>
                 </div>
             </div>
         </div>
@@ -349,9 +349,9 @@
                         <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -365,9 +365,9 @@
                         <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -381,9 +381,9 @@
                         <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -397,9 +397,9 @@
                         <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -413,9 +413,9 @@
                         <img class="img-fluid w-100" src="img/team-5.jpg" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>

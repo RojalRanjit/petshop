@@ -34,7 +34,7 @@
             <!-- Navbar Start -->
             <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
                 <a href="{{route('home')}}" class="navbar-brand ms-lg-5">
-                    <h1 class="m-0 text-uppercase text-dark"><i class="bi bi-shop fs-1 text-primary me-3"></i>Pet Shop</h1>
+                    <h1 class="m-0 text-uppercase text-dark "><a href="{{route('home')}}"><img src="img/logo.jpg" height= "80px" width = "80px"> Pet Shop</a></h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -45,7 +45,7 @@
                         <a href="{{route('about')}}" class="nav-item nav-link About" onclick="toggle()" id="About">About</a>
                         <a href="{{route('service')}}" class="nav-item nav-link Service" onclick="toggle()" id="Service">Service</a>
                         <a href="{{route('product')}}" class="nav-item nav-link Product" onclick="toggle()" id="Product">Product</a>
-                        <a href="{{route('blog')}}" class="nav-item nav-link Blog" onclick="toggle()" id="Blog">Blog</a>
+                        <a href="{{route('contact')}}" class="nav-item nav-link Contact" onclick="toggle()" id="Blog">Contact Us</a>
                         @if(Auth::check())
                         <a href="{{route('login')}}" class="nav-item nav-link ">{{auth()->user()->name}}</a>
                         <a href="{{route('logout')}}" class="nav-item nav-link nav-contact bg-danger text-white px-5 ms-lg-5" >Logout</a>
@@ -68,9 +68,9 @@
                         <div class="col-lg-3 col-md-6">
                             <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Get In Touch</h5>
                             <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p>
-                            <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>123 Street, New York, USA</p>
-                            <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
-                            <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
+                            <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Kamalpokhari, KTM, Nepal</p>
+                            <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>ram@gmail.com</p>
+                            <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+977 9845720158</p>
                         </div>
                         <!-- <div class="col-lg-3 col-md-6">
                             <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Quick Links</h5>
@@ -86,26 +86,26 @@
                         <div class="col-lg-3 col-md-6">
                             <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Popular Links</h5>
                             <div class="d-flex flex-column justify-content-start">
-                                <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                                <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                                <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                                <a class="text-body" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                                <a class="text-body mb-2" href="{{route('home')}}"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-body mb-2" href="{{route('about')}}"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                <a class="text-body mb-2" href="{{route('product')}}"><i class="bi bi-arrow-right text-primary me-2"></i>Products</a>
+                                <a class="text-body" href="{{route('contact')}}"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Newsletter</h5>
+                            <!-- <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Newsletter</h5>
                             <form action="">
                                 <div class="input-group">
                                     <input type="text" class="form-control p-3" placeholder="Your Email">
                                     <button class="btn btn-primary">Sign Up</button>
                                 </div>
-                            </form>
+                            </form> -->
                             <h6 class="text-uppercase mt-4 mb-3">Follow Us</h6>
                             <div class="d-flex">
-                                <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-linkedin"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href="#"><i class="bi bi-instagram"></i></a>
+                                <a class="btn btn-outline-primary btn-square me-2" href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square me-2" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                                <a class="btn btn-outline-primary btn-square me-2" href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
                             </div>
                         </div>
                         <div class="col-12 text-center text-body">
@@ -113,7 +113,7 @@
                             <span class="mx-1">|</span>
                             <a class="text-body" href="">Privacy Policy</a>
                             <span class="mx-1">|</span>
-                            <a class="text-body" href="">Customer Support</a>
+                            <a class="text-body" href="{{route('contact')}}">Customer Support</a>
                             <span class="mx-1">|</span>
                             <a class="text-body" href="">Payments</a>
                             <span class="mx-1">|</span>
@@ -128,7 +128,7 @@
                 <div class="container">
                     <div class="row g-5">
                         <div class="col-md-6 text-center text-md-start">
-                            <p class="mb-md-0">&copy; <a class="text-white" href="#">Your Site Name</a>. All Rights Reserved.</p>
+                            <p class="mb-md-0">&copy; <a class="text-white" href="{{route('home')}}">SSR Petshop</a>. All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>
