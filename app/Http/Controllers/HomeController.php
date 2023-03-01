@@ -22,7 +22,8 @@ class HomeController extends Controller
 
     public function product()
     {
-        return view('product');
+        $products = petitem::orderBy('id','desc')->get();
+        return view('product',compact('products'));
     }
 
     public function service()

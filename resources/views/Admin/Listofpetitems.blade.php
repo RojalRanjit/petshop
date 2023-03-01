@@ -1,6 +1,6 @@
 @extends('layout.adminLayout')
 @section('content')
-<div class="container" style="position: absolute;top: 115px;left: 310px;">
+<div class="container" style="position: absolute;top: 115px;left: 150px;">
 <table class="table table-striped table-hover">
   <thead>
     <tr>
@@ -24,7 +24,7 @@
         <a href="{{url('edit/' . $item->id)}}" class="btn btn-primary">Edit</a></td>
     </tr>
     @endforeach
-    
+
   </tbody>
 </table>
 </div>

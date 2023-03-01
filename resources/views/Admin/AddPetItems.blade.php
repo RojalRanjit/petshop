@@ -1,9 +1,15 @@
+<style>
+.borderForm input{
+border:1px solid black;
+
+}
+</style>
 @extends('layout.adminLayout')
 @section('content')
   <div class="container" style="position: absolute;top: 115px;left: 310px;">
     <div class="row">
       <div class="col-md-8">
-        <form action="{{route('addItems')}}" method="post" enctype="multipart/form-data">
+        <form action="{{route('addItems')}}" class="borderForm" method="post" enctype="multipart/form-data">
           @csrf
           <div class="mb-3">
             <label for="item" class="form-label">Item</label>
