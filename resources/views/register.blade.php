@@ -32,7 +32,6 @@
         </div>
       @enderror
      </div>
-     
       <button type="submit" class="btn btn-primary form-control">Sign Up</button>
     </form>
 </div>

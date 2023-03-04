@@ -25,9 +25,6 @@ Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/login', [HomeController::class, 'login'])->name('login');
 Route::get('/register', [HomeController::class, 'register'])->name('register');
-Route::get('/train', [HomeController::class, 'train'])->name('train');
-
-
 
 
 Route::post('/login', [UserController::class, 'loginUser'])->name('loginUser');

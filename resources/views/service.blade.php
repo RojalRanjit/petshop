@@ -45,7 +45,7 @@
                         <div>
                             <h5 class="text-uppercase mb-3">Pet Training</h5>
                             <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
-                            <a class="text-primary text-uppercase" href="{{route('train')}}">Read More<i class="bi bi-chevron-right"></i></a>
+                            <a class="text-primary text-uppercase" href="">Read More<i class="bi bi-chevron-right"></i></a>
                         </div>
                     </div>
                 </div>

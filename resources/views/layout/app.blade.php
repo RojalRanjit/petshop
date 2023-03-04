@@ -43,7 +43,7 @@
                     <div class="navbar-nav ms-auto py-0">
                         <a href="{{route('home')}}" class="nav-item nav-link Home" onclick="toggle()" id="Home">Home</a>
                         <a href="{{route('about')}}" class="nav-item nav-link About" onclick="toggle()" id="About">About</a>
-                        <a href="{{route('service')}}" class="nav-item nav-link Service" onclick="toggle()" id="Service">Service</a>
+                        <!-- <a href="{{route('service')}}" class="nav-item nav-link Service" onclick="toggle()" id="Service">Service</a> -->
                         <a href="{{route('product')}}" class="nav-item nav-link Product" onclick="toggle()" id="Product">Product</a>
                         <a href="{{route('contact')}}" class="nav-item nav-link Contact" onclick="toggle()" id="Blog">Contact Us</a>
                         @if(Auth::check())

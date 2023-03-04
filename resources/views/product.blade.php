@@ -135,6 +135,71 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+                <h1 class="display-5 text-uppercase mb-0">Pet Accessory</h1>
+            </div>
+            <div class="owl-carousel product-carousel">
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        <img class="img-fluid mb-4" src="img/toy-1.jpg" alt="">
+                        <h6 class="text-uppercase">Quality Pet Toys</h6>
+                        <h5 class="text-primary mb-0">$199.00</h5>
+                        <div class="btn-action d-flex justify-content-center">
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        <img class="img-fluid mb-4" src="img/toy-2.jpg" alt="">
+                        <h6 class="text-uppercase">Quality Pet Toys</h6>
+                        <h5 class="text-primary mb-0">$199.00</h5>
+                        <div class="btn-action d-flex justify-content-center">
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        <img class="img-fluid mb-4" src="img/toy-3.jpg" alt="">
+                        <h6 class="text-uppercase">Quality Pet Toys</h6>
+                        <h5 class="text-primary mb-0">$199.00</h5>
+                        <div class="btn-action d-flex justify-content-center">
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        <img class="img-fluid mb-4" src="img/toy-4.jpg" alt="">
+                        <h6 class="text-uppercase">Quality Pet Toys</h6>
+                        <h5 class="text-primary mb-0">$199.00</h5>
+                        <div class="btn-action d-flex justify-content-center">
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        <img class="img-fluid mb-4" src="img/toy-5.jpg" alt="">
+                        <h6 class="text-uppercase">Quality Pet Toys</h6>
+                        <h5 class="text-primary mb-0">$199.00</h5>
+                        <div class="btn-action d-flex justify-content-center">
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Products End -->
 
 
