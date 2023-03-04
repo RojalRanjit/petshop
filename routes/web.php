@@ -26,6 +26,13 @@ Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/login', [HomeController::class, 'login'])->name('login');
 Route::get('/register', [HomeController::class, 'register'])->name('register');
 
+Route::get('/adminDashboard', [HomeController::class, 'Dashboard'])->name('adminDashboard');
+Route::get('/adminAddPetitems', [HomeController::class, 'AddPetitems'])->name('adminAddPetitems');
+Route::post('/addItems', [HomeController::class, 'addItems'])->name('addItems');
+Route::get('/Listofitems', [HomeController::class, 'Listofitems'])->name('Listofitems');
+Route::get('/delete/{id}', [HomeController::class, 'deleteitem'])->name('deleteitem');
+Route::get('/edit/{id}', [HomeController::class, 'edititem'])->name('edititem');
+Route::post('/edit', [HomeController::class, 'edited'])->name('edited');
 
 Route::post('/login', [UserController::class, 'loginUser'])->name('loginUser');
 Route::get('/logout', [UserController::class, 'logout'])->name('logout');
