@@ -45,25 +45,6 @@
     <!-- About End -->
 
 
-    <!-- Offer Start -->
-    <div class="container-fluid bg-offer my-5 py-5">
-        <div class="container py-5">
-            <div class="row gx-5 justify-content-start">
-                <div class="col-lg-7">
-                    <div class="border-start border-5 border-dark ps-5 mb-5">
-                        <h6 class="text-dark text-uppercase">Special Offer</h6>
-                        <h1 class="display-5 text-uppercase text-white mb-0">Save 50% on all items your first order</h1>
-                    </div>
-                    <p class="text-white mb-4">"Get ready for the purrfect season with our special offer! From now until the end of the month, receive 50% off your entire purchase when you adopt a new feline friend from our pet shop. That's right, not only will you be adding a furry companion to your family, but you'll also save on all the supplies you need to keep them happy and healthy. Don't wait—visit us today and give a deserving cat a forever home!"</p>
-                    <a href="" class="btn btn-light py-md-3 px-md-5 me-3">Shop Now</a>
-                    <a href="" class="btn btn-outline-light py-md-3 px-md-5">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Offer End -->
-
-
     <!-- Team Start -->
     <div class="container-fluid py-5">
         <div class="container">
@@ -77,14 +58,14 @@
                         <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
+                        <h5 class="text-uppercase">Rojal Ranjit</h5>
                         <p class="m-0">Designation</p>
                     </div>
                 </div>
@@ -93,14 +74,14 @@
                         <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
+                        <h5 class="text-uppercase">Sandeep Mainali</h5>
                         <p class="m-0">Designation</p>
                     </div>
                 </div>
@@ -109,46 +90,14 @@
                         <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                                <a class="btn btn-light btn-square mx-1" href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-5.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
+                        <h5 class="text-uppercase">Saugat Silwal</h5>
                         <p class="m-0">Designation</p>
                     </div>
                 </div>
